@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Haffer';
+  src: url('./fonts/HafferUprightsVF.woff2') format('woff2-variations'),
+       url('./fonts/HafferUprightsVF.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Americana BT';
+  src: url('./fonts/AmericanaBT-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.nuora-logo {
+  font-family: 'Americana BT', 'Times New Roman', serif !important;
+  font-weight: 700 !important;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 1;
+  display: inline-block;
+  user-select: none;
+  text-transform: lowercase;
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  .nuora-logo {
+    font-size: 17px;
+  }
+}
+
+.nuora-logo--lg {
+  font-size: 28px;
+}
+
+.nuora-logo--white {
+  color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  font-family: 'Haffer', system-ui, -apple-system, sans-serif !important;
+}
+
+html,
+body,
+p,
+span,
+div,
+li,
+td,
+a,
+label,
+input,
+textarea,
+button,
+select {
+  font-weight: 300 !important;
+}
+
+h1,
+.h1,
+[class*="text-7xl"],
+[class*="text-6xl"],
+[class*="text-5xl"] {
+  font-weight: 200 !important;
+  letter-spacing: -0.015em;
+}
+
+h2,
+h3,
+.h2,
+.h3,
+[class*="text-4xl"],
+[class*="text-3xl"],
+[class*="text-2xl"] {
+  font-weight: 250 !important;
+  letter-spacing: -0.01em;
+}
+
+h4,
+h5,
+h6,
+[class*="text-xl"] {
+  font-weight: 300 !important;
+}
+
+strong,
+b,
+.font-bold,
+.font-semibold,
+.font-medium,
+[class*="font-bold"],
+[class*="font-semibold"],
+[class*="font-medium"] {
+  font-weight: 400 !important;
+}
+
+button,
+.btn,
+[class*="button"],
+[role="button"] {
+  font-weight: 350 !important;
+  letter-spacing: 0.01em;
+}
